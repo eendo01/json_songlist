@@ -21,9 +21,12 @@
                         theData = request.responseText;
                         returnHTML = theData;
 					    data = JSON.parse(theData);
-                        
+                        resultstring = "";
+                        data.songs.forEach(song => {
+                            resultstring += song.title + " ";
+                        });
 
-                        document.getElementById("songlist").innerHTML = returnHTML;
+                        document.getElementById("songlist").innerHTML = resultstring;
                     }
                     else if (request.readyState == 3) {
                         console.log("6: ready state 3- request received, data being sent");
