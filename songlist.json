@@ -1,56 +1,58 @@
-[
-    {
-        "Artist" : "The Velvet Underground",
-        "Title" : "Femme Fatale",
-        "Genre(s)" : ["Art rock"],
-        "Year" : 1967
-    },
-    {
-        "Artist" : "The Zombies",
-        "Title" : "Androgynous",
-        "Genre(s)" : ["Alternative rock"],
-        "Year" : 1984
-    },
-    {
-        "Artist" : "The Velvet Underground",
-        "Title" : "Pale Blue Eyes",
-        "Genre(s)" : ["Art rock"],
-        "Year" : 1969
-    },
-    {
-        "Artist" : "Nico",
-        "Title" : "These Days",
-        "Genre(s)" : ["Art rock"],
-        "Year" : 1967
-    },
-    {
-        "Artist" : "Yo La Tengo",
-        "Title" : "Autumn Sweater",
-        "Genre(s)" : ["Indie rock"],
-        "Year" : 1997
-    },
-    {
-        "Artist" : "The Kinks",
-        "Title" : "Strangers",
-        "Genre(s)" : ["Rock"],
-        "Year" : 1970
-    },
-    {
-        "Artist" : "Talking Heads",
-        "Title" : "This Must Be the Place (Naive Melody)",
-        "Genre(s)" : ["Post-punk"],
-        "Year" : 1983
-    },
-    {
-        "Artist" : "The Smiths",
-        "Title" : "This Charming Man",
-        "Genre(s)" : ["Indie rock"],
-        "Year" : 1984
-    },
-    {
-        "Artist" : "The Velvet Underground",
-        "Title" : "Oh! Sweet Nuthin'",
-        "Genre(s)" : ["Art rock"],
-        "Year" : 1970
-    }
-]
+{
+    "list" : [
+        {
+            "Artist" : "The Velvet Underground",
+            "Title" : "Femme Fatale",
+            "Genre(s)" : ["Art rock"],
+            "Year" : 1967
+        },
+        {
+            "Artist" : "The Zombies",
+            "Title" : "Androgynous",
+            "Genre(s)" : ["Alternative rock"],
+            "Year" : 1984
+        },
+        {
+            "Artist" : "The Velvet Underground",
+            "Title" : "Pale Blue Eyes",
+            "Genre(s)" : ["Art rock"],
+            "Year" : 1969
+        },
+        {
+            "Artist" : "Nico",
+            "Title" : "These Days",
+            "Genre(s)" : ["Art rock"],
+            "Year" : 1967
+        },
+        {
+            "Artist" : "Yo La Tengo",
+            "Title" : "Autumn Sweater",
+            "Genre(s)" : ["Indie rock"],
+            "Year" : 1997
+        },
+        {
+            "Artist" : "The Kinks",
+            "Title" : "Strangers",
+            "Genre(s)" : ["Rock"],
+            "Year" : 1970
+        },
+        {
+            "Artist" : "Talking Heads",
+            "Title" : "This Must Be the Place (Naive Melody)",
+            "Genre(s)" : ["Post-punk"],
+            "Year" : 1983
+        },
+        {
+            "Artist" : "The Smiths",
+            "Title" : "This Charming Man",
+            "Genre(s)" : ["Indie rock"],
+            "Year" : 1984
+        },
+        {
+            "Artist" : "The Velvet Underground",
+            "Title" : "Oh! Sweet Nuthin'",
+            "Genre(s)" : ["Art rock"],
+            "Year" : 1970
+        }
+    ]
+}
