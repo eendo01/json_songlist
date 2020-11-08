@@ -3,55 +3,55 @@
         {
             "artist" : "The Velvet Underground",
             "title" : "Femme Fatale",
-            "genre(s)" : ["Art rock"],
+            "genre" : ["Art rock"],
             "year" : 1967
         },
         {
             "artist" : "The Zombies",
             "title" : "Androgynous",
-            "genre(s)" : ["Alternative rock"],
+            "genre" : ["Alternative rock"],
             "year" : 1984
         },
         {
             "artist" : "The Velvet Underground",
             "title" : "Pale Blue Eyes",
-            "genre(s)" : ["Art rock"],
+            "genre" : ["Art rock"],
             "year" : 1969
         },
         {
             "artist" : "Nico",
             "title" : "These Days",
-            "genre(s)" : ["Art rock"],
+            "genre" : ["Art rock"],
             "year" : 1967
         },
         {
             "artist" : "Yo La Tengo",
             "title" : "Autumn Sweater",
-            "genre(s)" : ["Indie rock"],
+            "genre" : ["Indie rock"],
             "year" : 1997
         },
         {
             "artist" : "The Kinks",
             "title" : "Strangers",
-            "genre(s)" : ["Rock"],
+            "genre" : ["Rock"],
             "year" : 1970
         },
         {
             "artist" : "Talking Heads",
             "title" : "This Must Be the Place (Naive Melody)",
-            "genre(s)" : ["Post-punk"],
+            "genre" : ["Post-punk"],
             "year" : 1983
         },
         {
             "artist" : "The Smiths",
             "title" : "This Charming Man",
-            "genre(s)" : ["Indie rock"],
+            "genre" : ["Indie rock"],
             "year" : 1984
         },
         {
             "artist" : "The Velvet Underground",
             "title" : "Oh! Sweet Nuthin'",
-            "genre(s)" : ["Art rock"],
+            "genre" : ["Art rock"],
             "year" : 1970
         }
     ]

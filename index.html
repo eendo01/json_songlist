@@ -6,6 +6,8 @@
         <title>Song List</title>
         <script>
             const url = "https://eendo01.github.io/json_songlist/songlist.json";
+            
+            
             function loadList() {
                 request = new XMLHttpRequest();
                 console.log("1: created request");
@@ -19,14 +21,26 @@
                     if (request.readyState == 4 && request.status == 200) {
                         console.log("5: data is ready");
                         theData = request.responseText;
-                        returnHTML = theData;
 					    data = JSON.parse(theData);
-                        resultstring = "";
-                        data.songs.forEach(song => {
-                            resultstring += song.title + " ";
+                        genres = [];
+                        returnHTML = "";
+                        data["songs"].forEach(song => {
+                            returnHTML = "<div";
+                            song_genres = "";
+                            song.genre.forEach(g => {
+                                if (genres.indexOf(g) == -1) {
+                                    genres.push(g);
+                                    song_genres += g + ". ";
+                                    returnHTML += " id=" + g;
+                                }
+                            });
+                            returnHTML += "> <strong>" + song.title + "</strong> <br />" +
+                                          "Artist: " + song.artist + "<br />" +
+                                          "Genre: " + song_genres + "<br />" +
+                                          "Released " + song.year + "</div>";
                         });
 
-                        document.getElementById("songlist").innerHTML = resultstring;
+                        document.getElementById("songlist").innerHTML = returnHTML;
                     }
                     else if (request.readyState == 3) {
                         console.log("6: ready state 3- request received, data being sent");
