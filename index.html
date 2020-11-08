@@ -20,7 +20,8 @@
                         console.log("5: data is ready");
                         theData = request.responseText;
                         returnHTML = theData;
-
+					    data = JSON.parse(theData);
+                        
 
                         document.getElementById("songlist").innerHTML = returnHTML;
                     }
