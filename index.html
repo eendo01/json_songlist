@@ -25,7 +25,7 @@
                         genres = [];
                         returnHTML = "";
                         data["songs"].forEach(song => {
-                            returnHTML = "<div";
+                            returnHTML += "<div";
                             song_genres = "";
                             song.genre.forEach(g => {
                                 if (genres.indexOf(g) == -1) {
@@ -37,7 +37,7 @@
                             returnHTML += "> <strong>" + song.title + "</strong> <br />" +
                                           "Artist: " + song.artist + "<br />" +
                                           "Genre: " + song_genres + "<br />" +
-                                          "Released " + song.year + "</div>";
+                                          "Released " + song.year + "</div> ";
                         });
 
                         document.getElementById("songlist").innerHTML = returnHTML;
